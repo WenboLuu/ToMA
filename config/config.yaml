@@ -1,0 +1,5 @@
+# config.yaml
+num_tiles: 256
+toma_variant: "local_tile"
+num_of_inference_steps: 35
+merge_step_interval: 3

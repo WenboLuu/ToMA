@@ -1,0 +1,20 @@
+FluxJointTransformerBlock:
+  feature_map_size: [64, 64]
+  num_blocks: 5
+  repeat_count: 1
+
+FluxTransformerBlock_0:
+  feature_map_size: [64, 64]
+  num_blocks: 14 # the number of not merging
+  repeat_count: 1
+
+FluxSingleTransformerBlock_1:
+  feature_map_size: [32, 32]
+  num_blocks: 5 # the number of not merging
+  repeat_count: 1
+
+FluxSingleTransformerBlock_2:
+  feature_map_size: [32, 32]
+  num_blocks: 33 # the number of merging
+  repeat_count: 1
+
