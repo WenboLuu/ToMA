@@ -4,7 +4,7 @@
 
 This is the official implementation of our paper:  
 **[Token Merging with Attention for Diffusion Models](https://icml.cc/virtual/2025/poster/46449)**  
-[Wenbo Lu](https://github.com/wenbolu), [Shaoyi Zheng](https://github.com/zhengshaoyi), [Yuxuan Xia](https://github.com/xyxuan), [Shengjie Wang](https://github.com/wangshengjie-ai)  
+[Wenbo Lu](https://wenboluu.github.io/), [Shaoyi Zheng](https://github.com/SeanAlpaca818), [Yuxuan Xia](https://github.com/NovTi), [Shengjie Wang](https://sheng-jie-wang.github.io/)  
 _[ICML2025 Poster](https://icml.cc/virtual/2025/poster/46449)_ | _[Paper](https://icml.cc/virtual/2025/poster/46449)_ | _[BibTeX](#citation)_ 
 
 ToMA reformulates token merging as a _linear transformation_, enabling a natural implementation within the attention mechanism. Guided by the theoretical guarantees of submodular optimization, our method achieves faster inference with minimal image degradation.
@@ -24,7 +24,7 @@ mamba activate toma_env
 ## 📝 Usage
 
 For a typical workflow for generating images with ToMA and the Flux pipeline, refer to `run_flux.py` and the docstrings throughout the codebase.  
-You can configure merge scheduler and settings via the `config/config.yaml` file, which allows you to easily adjust parameters such as the number of tiles, number of merge steps, and other options to control merge process.
+You can configure merge scheduler and settings via the `config/config.yaml` file, which allows you to easily adjust parameters such as the number of tiles, merge steps, and etc., to control merge process.
 
 
 ## 🕸️ Pipeline Overview
