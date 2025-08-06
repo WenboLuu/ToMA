@@ -74,7 +74,7 @@ def generate_image(
     # Generate image
     generator = torch.Generator(device=pipeline.device).manual_seed(random_seed)
 
-    output, _ = pipeline(
+    output = pipeline(
         prompt=prompt,
         height=height,
         width=width,
@@ -123,7 +123,7 @@ if __name__ == "__main__":
     pipeline = FluxPipeline.from_pretrained(
         "black-forest-labs/FLUX.1-dev",
         torch_dtype=torch.bfloat16,
-        local_files_only=True,
+        local_files_only=False,  # If have no access to Internet / model, plz download it first and set to True
     ).to(args.device)
 
     pipeline.set_progress_bar_config(disable=False)
