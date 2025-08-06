@@ -3,7 +3,7 @@
 ![ToMA](./assets/first_illustration.jpg)
 
 This is the official implementation of our paper:  
-**[Token Merging with Attention for Diffusion Models](https://icml.cc/virtual/2025/poster/46449)**  
+**[Token Merge with Attention for Diffusion Models](https://icml.cc/virtual/2025/poster/46449)**  
 [Wenbo Lu](https://wenboluu.github.io/), [Shaoyi Zheng](https://github.com/SeanAlpaca818), [Yuxuan Xia](https://github.com/NovTi), [Shengjie Wang](https://sheng-jie-wang.github.io/)  
 _[ICML2025 Poster](https://icml.cc/virtual/2025/poster/46449)_ | _[Paper](https://icml.cc/virtual/2025/poster/46449)_ | _[BibTeX](#citation)_ 
 
